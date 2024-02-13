@@ -5,7 +5,7 @@ body {}
     margin: 0;
 }
 
-image {
+.image {
     max-width: 408px;
     width: 100%;
     height: auto;
@@ -25,7 +25,6 @@ image {
     display: flex;
     align-items: center;
     gap: 50px;
-
 }
 
 .mark {
@@ -69,8 +68,6 @@ image {
     outline: 0px;
     border: 0px;
     text-decoration: none;
-
-
     font-family: 'League Spartan', sans-serif;
     font-size: 32px;
     font-weight: 300;
@@ -81,7 +78,6 @@ image {
 
 .btn-group {
     display: flex;
-
 }
 
 .btn-buy {
@@ -110,7 +106,7 @@ image {
     width: 408px;
 }
 .image:hover{
-    transform: scale(1.01);
+    transform: translateY(-4px);
     transition: .4s all ease-in-out;
 }
 .container-2{
@@ -173,10 +169,10 @@ image {
 }
 
 .image-watch-2 {
-    max-width: 500px;
+    max-width:340px;
     width: 100%;
     margin: auto;
-    padding: 65px 0px;
+    padding: 65px 100px;
     background: rgb(243, 241, 241);
     margin-top: 85px;
 }
@@ -212,7 +208,6 @@ image {
     text-align: center;
     margin: auto;
     margin-top: 49px;
-   
 }
 .desc-link{
     color: #BB8B5D;
@@ -222,3 +217,117 @@ image {
     color: #c99f78;
     transition: .4s all ease-in-out;
 }
+@media screen and (max-width: 1290px) {
+   .image img{
+    margin-left: 20%;
+    width: 358px; 
+   }
+    .title {
+        font-size: 180px;
+    }
+    .desc{
+        font-size: 28px;
+        max-width: 495px;
+    }
+    .container{
+        padding: 0px 0px 0px 60px;
+    }
+    .btn-buy{
+        padding: 13px 36px;
+    }
+    .btn-value {
+        padding: 6px 14px;
+    }
+    .btn{
+        font-size: 24px;
+    }
+    .main {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 1144px) {
+    .image img{
+       width: 308px; 
+       margin-left: 10%;
+    }
+    .title {
+        font-size: 120px;
+    }
+    .desc{
+        font-size: 24px;
+        max-width: 495px;
+    }
+    .models {
+        font-size: 54px;
+    }
+    .image-watch-1 {
+        padding: 90px 30px 90px 40px;
+    }
+    .title-watch {
+        font-size: 28px;
+    }
+    .desc-watch {
+        font-size: 28px;
+    }
+    .image-watch-2 {
+        padding: 25px 0px;
+    }
+}
+@media screen and (max-width: 918px) {
+    .image img{
+       width: 208px; 
+       margin-left: 10%;
+       display: block;
+       margin: 0;
+       margin-top: 15px;
+    }
+    .image{
+        max-width: 208px;
+    }
+    .title {
+        font-size: 120px;
+        margin-top: 10px;
+        margin: auto;
+        max-width: 355px;
+    }
+    .desc{
+        font-size: 24px;
+        max-width: 495px;
+        margin-bottom: 35px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .mark {
+        margin: 15px 0 0 0;
+    }
+    .container{
+        padding: 0px 0px 0px 25px;
+    }
+    .btn-group {
+        max-width: 290px;
+        margin-left: 15%;
+    }
+    .popular {
+        font-size: 18px;
+    }
+    .image-watch-1 {
+        padding: 40px 15px 40px 25px;
+    }
+    .image-watch-2 {
+        padding: 5px 0px;
+    }
+    .desc-watch {
+        font-size: 28px;
+        max-width: 450px;
+    }
+    .title-desc {
+        font-size: 28px;
+    }
+    .main-desc {
+        font-size: 24px;
+        max-width: 450px;
+    }
+}
+

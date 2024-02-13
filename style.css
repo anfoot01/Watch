@@ -89,6 +89,11 @@ image {
     color: #FFF;
     padding: 26px 73px;
 }
+.btn-buy:hover{
+    color:#000;
+    background:#BB8B5D;
+    transition: .3s all ease-in-out;
+}
 
 .btn-value {
     color: #000;
@@ -104,7 +109,13 @@ image {
 .image {
     width: 408px;
 }
-
+.image:hover{
+    transform: scale(1.01);
+    transition: .4s all ease-in-out;
+}
+.container-2{
+    margin-bottom: 142px;
+}
 .popular {
     color: rgb(0, 0, 0);
     font-family: 'League Spartan', sans-serif;
@@ -133,7 +144,10 @@ image {
     padding: 110px 60px 110px 70px;
     background: rgb(243, 241, 241);
 }
-
+.image-watch-1:hover{
+    transform: scale(1.03);
+    transition: .4s all ease-in-out;
+}
 .title-watch {
     color: rgb(0, 0, 0);
     font-family: 'League Spartan', sans-serif;
@@ -166,7 +180,10 @@ image {
     background: rgb(243, 241, 241);
     margin-top: 85px;
 }
-
+.image-watch-2:hover{
+    transform: scale(1.03);
+    transition: .4s all ease-in-out;
+}
 .title-desc {
     color: rgb(22, 21, 21);
     font-family: 'League Spartan', sans-serif;
@@ -195,8 +212,13 @@ image {
     text-align: center;
     margin: auto;
     margin-top: 49px;
+   
 }
 .desc-link{
     color: #BB8B5D;
     font-weight: 700;
+}
+.desc-link:hover{
+    color: #c99f78;
+    transition: .4s all ease-in-out;
 }
